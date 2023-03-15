@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Visual Studio Code</title>
+</head>
+<h1 class="flex justify-center bg-zinc-600 text-slate-50 font-bold">Just for study and learning purpose</h1>
+<body>
+    <!-- Navbar -->
+    <nav class="flex bg-zinc-900 justify-between">
+        <div>
+            <ul class="flex flex-row items-center ">
+                <img class="h-6 ml-[100px]" src="./Assets/visual-studio-code-icon.png" alt="VS code logo">
+                <li class="text-slate-50 justify-around m-2 text-[18px]">Visual Studio Code</li>
+                <li class="mx-2 list-none text-gray-400"><a href="#">Docs</a></li>
+                <li class="mx-2 list-none text-gray-400"><a href="#">Updates</a></li>
+                <li class="mx-2 list-none text-gray-400"><a href="#">Blog</a></li>
+                <li class="mx-2 list-none text-gray-400"><a href="#">Api</a></li>
+                <li class="mx-2 list-none text-gray-400"><a href="#">Extensions</a></li>
+                <li class="mx-2 list-none text-gray-400"><a href="#">FAQ</a></li>
+                <li class="mx-2 list-none text-gray-400"><a href="#">Learn</a></li>
+            </ul>
+        </div>
+        <div>
+            <input class="px-5 py-3 bg-zinc-800 " type="text" placeholder="Search Docs">
+            <button class="px-5 py-3 bg-blue-600 text-slate-50 mr-[80px]">Download</button>
+        </div>
+    </nav>
+    <div class="bg-slate-900 py-2 text-center ">
+        <p class="text-slate-400 text-[12pt]" ><span class="text-sky-600">Version 1.76</span> is now available! Read about the new features and fixes from February.</p>
+    </div>    
+    <main>
+        <!-- Banner section -->
+        <div class="w-[25] text-center flex bg-zinc-900 justify-between py-[50px] px-[30px]">
+            <!-- right section -->
+        <div class="text-slate-50">
+            <h2 class="text-[35pt] font-[600]"><span class="font-[100]">Code editing.</span></samp> Redefined.</h2>
+            <p class="text-[14pt] font-[100] my-[2px]">Free. Built on open source. Runs everywhere.</p>
+            <!-- <button class="px-[14px] h-[80px] bg-blue-600" >Download for Windows <br>Stable Build</button> -->
+            <button class=" bg-blue-700 items-center p-[20px] px-[30px] mt-[20px] font-[600]">
+                "Download for Windows"<br>
+             <small class="font-[100]">Stable Build</small></button>
+            <button class=" bg-blue-700 items-center p-[30px] px-[10px] mt-[20px]"><a href="#"><img class="h-[20px]" src="./Assets/arrow-204-xxl.png" alt=""></a></button>
+        </div>
+        <!-- left section -->
+        <div class="w-[75%]">
+            <img class="h-[570px]" src="./Assets/VS code screen short.png" alt="VS code screenshot">
+        </div>
+        </div>
+        <div class="flex justify-around py-10 items-center bg-slate-300">
+            <div><img class="h-[80px]" src="./Assets/light-bulb.png" alt="IntelliSense">IntelliSense</div>
+            <div><img class="h-[80px]" src="./Assets/bug.png" alt="debug">Run and Debug</div>
+            <div><img class="h-[80px]" src="./Assets/git_branch_icon.png" alt="Build-in Git">Build-in Git</div>
+            <div><img class="h-[80px]" src="./Assets/Extension.png" alt="Extension">Extensions</div>
+        </div>
+        <!-- Meet IntelliSense. -->
+        <div class="flex flex-row  px-[50px] py-20">
+            <div class="w-[40%]"><img class="" src="./Assets/home-intellisense.svg" alt="home-intellisense"></div>
+            <div class="w-[60%]">
+                <h2 class="text-[24pt] font-[80]">Meet IntelliSense</h2>
+                <p class="leading-[3.5rem] text-[16pt]">Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p>
+            </div>
+        </div>
+        <!-- Print statement debugging is a thing of the past. -->
+        <div class="flex flex-row  px-[50px] py-20 bg-slate-200"> 
+            <div class="w-[60%]">
+                <h2 class="text-[24pt] font-[80]">Print statement debugging is a thing of the past.</h2>
+                <p class="leading-[3.5rem] text-[16pt]">Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p>
+            </div>
+            <div class="ml-[100px]"><img class="" src="./Assets/home-debug.svg" alt="home-debug"></div>
+        </div>
+        <!-- Git commands built-in. -->
+        <div class="flex flex-row  px-[50px] py-20">
+            <div class="w-[40%]"><img class="" src="./Assets/home-git.svg" alt="home-git"></div>
+            <div class="w-[60%]">
+                <h2 class="text-[24pt] font-[80]">Git commands built-in.</h2>
+                <p class="leading-[3.5rem] text-[16pt]">Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+            </div>
+        </div>
+        <!-- Extensible and customizable. -->
+        <div class="flex flex-row  px-[50px] py-20 bg-slate-200">
+            <div class="w-[60%]">
+                <h2 class="text-[24pt] font-[80]">Extensible and customizable.</h2>
+                <p class="leading-[3.5rem] text-[16pt]">Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor <a class="text-blue-700" href="#">Learn more about extensions.</a></p>
+            </div>
+            <div><img class="h-[300px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 " src="./Assets/Hundreds-of-Extensions.png" alt="Hundreds-of-Extensions"></div> 
+        </div>
+        <!-- Deploy with confidence and ease -->
+        <div class="flex flex-row  px-[50px] py-20">
+            <div class="w-[40%]"><img class="" src="./Assets/home-azure.svg" alt="home-azure"></div>
+            <div class="w-[60%]">
+                <h2 class="text-[24pt] font-[80]">Deploy with confidence and ease</h2>
+                <p class="leading-[3.5rem] text-[16pt]">With <a class="text-blue-700" href="#">Microsoft Azure</a> you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease, <a class="text-blue-700" href="#">all from within VS Code</a>.</p>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html> 
